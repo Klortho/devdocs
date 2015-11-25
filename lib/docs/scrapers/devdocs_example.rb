@@ -1,0 +1,1 @@
+/Users/maloneyc/git/klortho/devdocs_example/scraper/docs/scrapers/devdocs_example.rb

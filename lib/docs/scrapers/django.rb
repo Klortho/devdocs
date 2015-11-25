@@ -3,7 +3,7 @@ module Docs
     self.name = 'Django'
     self.type = 'sphinx'
     self.version = '1.8.6'
-    self.dir = '/Users/Thibaut/DevDocs/Docs/Django'
+    self.dir = '/Users/maloneyc/work/devdocs/Django-1.8.6/docs/_build/html'
     self.base_url = 'https://docs.djangoproject.com/en/1.8/'
     self.root_path = 'index.html'
     self.links = {
