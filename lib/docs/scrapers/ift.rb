@@ -19,12 +19,17 @@ module Docs
 
     html_filters.push 'ift/entries', 'ift/clean_html'
 
+    # Skip individual files
+    #options[:skip] = %w(
+    #  search.html)
+
     # Skip sets of files, by pattern
     options[:skip_patterns] = [
-      /\b_sources\/.*/]
+      /\b_sources\//, /\bgenindex\.html/, /\bsearch\.html/, 
+      /\b_modules\//, /\bpy-modindex\.html/]
 
     options[:attribution] = <<-HTML
-      This documentation (IFT) is in the public domain. It was produced
+      This documentation (IFT) is in the public domain. It was produced 
       by NCBI.
     HTML
 

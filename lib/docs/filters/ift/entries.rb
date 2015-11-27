@@ -9,6 +9,17 @@ module Docs
         at_css('h1').content.remove("\u{00b6}")
       end
 
+      def get_type
+        case subpath
+        when /\Aentrezpageobjects/
+          'entrezpageobjects'
+        when /\Aift/
+          'ift'
+        when /\Ancbipageobjects/
+          'ncbipageobjects'
+        end
+      end
+
     end
   end
 end
